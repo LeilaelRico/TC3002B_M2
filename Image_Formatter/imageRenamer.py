@@ -6,8 +6,7 @@
 import os
 
 # Ruta al folder en el que se encuentran las imágenes
-# directorio = 'ruta\\al\\directorio\\Landscape\\Landscape Classification\\Landscape Classification\\Training Data\\Carpeta-con-imágenes'
-directorio = 'C:\\Users\\crisb\\Downloads\\Landscape\\Landscape Classification\\Landscape Classification\\Training Data\\Glacier'
+directorio = 'ruta\\al\\directorio\\Landscape\\Landscape Classification\\Landscape Classification\\Training Data\\Carpeta-con-imágenes'
 
 # Obtener la lista de archivos en el directorio
 carpeta = os.listdir(directorio)
