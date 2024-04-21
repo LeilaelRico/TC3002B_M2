@@ -134,6 +134,8 @@ history = model.fit(
     epochs=50
 )
 
+model.save('1strun.keras')
+
 acc = history.history['acc']
 loss = history.history['loss']
 
