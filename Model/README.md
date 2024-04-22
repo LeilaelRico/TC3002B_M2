@@ -10,6 +10,9 @@ Posterior a especificar que el modelo será secuencial y agregar el modelo base 
 
 La decisión por utilizar ***InceptionV3*** se hizo por su gran capacidad para identificar correctamente los elementos que pertenecen a cada clase.
 
+**NOTA:** Los modelos entrenados se encuentran guardados en la [Carpeta de *Drive*](https://drive.google.com/drive/folders/1MYSXEZ1Kj9biLE9t6nm71JLbR2NCDUnU?usp=sharing)
+
+
 ## Justificación
 
 Si bien inicialmente se planeaba utilizar **MobileNetV2** como el artículo de *"Landscape Classification"*, la investigación de *"Classifying Tourists’ Photos"* me llevó a considerar hacer el cambio a **InceptionV3**.
