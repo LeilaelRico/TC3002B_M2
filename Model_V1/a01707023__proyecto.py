@@ -32,7 +32,7 @@ import seaborn as sns
 # !ls
 
 
-base_dir = '.\\Model\\images\\'
+base_dir = '.\\Model_V1\\images\\'
 train_dir = os.path.join(base_dir, 'train')
 test_dir = os.path.join(base_dir, 'test')
 
@@ -125,7 +125,7 @@ model.add(layers.Dense(5, activation='softmax'))  # 5 clases de salida
 
 model.summary()
 
-model.compile(loss='binary_crossentropy',
+model.compile(loss='categorical_crossentropy',
               optimizer=optimizers.RMSprop(learning_rate=1e-5),
               metrics=['acc'])
 
