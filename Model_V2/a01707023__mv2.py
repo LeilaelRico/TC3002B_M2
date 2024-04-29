@@ -75,7 +75,6 @@ base_model = InceptionV3(
     weights="imagenet", include_top=False, input_shape=(150, 150, 3))
 base_model.trainable = True
 
-# En caso de requerir fine tune, cambiar trainable a true
 fine_tune_at = 100
 
 for layer in base_model.layers[:fine_tune_at]:
@@ -154,7 +153,6 @@ classes_x = np.argmax(predictions, axis=1)
 classes_x
 
 # Matriz de Confusión
-
 
 # Obtener todas las etiquetas reales
 all_true_labels = []
