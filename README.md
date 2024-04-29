@@ -56,6 +56,11 @@ Al final, se decidió hacer una nueva versión la 2 en la cual se impedía que l
 
 **NOTA:** Los modelos entrenados se encuentran guardados en la [Carpeta de *Drive*](https://drive.google.com/drive/folders/1MYSXEZ1Kj9biLE9t6nm71JLbR2NCDUnU?usp=sharing)
 
+De la versión 2 existen 2 archivos:
+
+* modelv2_1.keras: Modelo **con** capas entrenables.
+* modelv2_2.keras: Modelo **sin** capas entrenables.
+
 ## Resultados
 
 ### *Accuracy* vs *Loss*
